@@ -103,3 +103,11 @@ button:focus {
 table{
   width:80%;
 }
+
+/* Mobile View */
+@media only screen and (max-width:480px){
+
+table{
+  width:100%;
+}
+}
