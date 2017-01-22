@@ -105,7 +105,7 @@ table{
 }
 
 /* Mobile View */
-@media screen and (max-width:480px){
+@media only screen and (max-width:480px){
   #subject, #subject2, #subject3{
     width:150px;
     height:80px;
