@@ -103,21 +103,3 @@ button:focus {
 table{
   width:80%;
 }
-
-/* Mobile View */
-@media only screen and (max-width:480px){
-  #subject, #subject2, #subject3{
-    width:150px;
-    height:80px;
-    font-size:50px;
-  }
-  input#amount{
-    font-size:50px;
-  }
-  body{
-    font-size:40px;
-  }
-  button{
-    font-size:50px;
-  }
-}
