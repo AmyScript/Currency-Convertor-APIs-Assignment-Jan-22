@@ -106,7 +106,17 @@ table{
 
 /* Mobile View */
 @media only screen and (max-width:480px){
-
+#subject, #subject2, #subject3{
+  width:65px;
+  height:40px;
+  font-size:20px;
+}
+input#amount{
+  width:70%;
+}
+header{
+  padding:20px;
+}
 table{
   width:100%;
 }
