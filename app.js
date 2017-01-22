@@ -39,6 +39,7 @@ app.getCurrency = function(query, base, query2){
 		//store the data in result
 		success: function(result){
 			//call displayCurrency method and pass in the data
+			console.log(result);
 			app.displayCurrency(result);
 		},
 		error: function(error){
