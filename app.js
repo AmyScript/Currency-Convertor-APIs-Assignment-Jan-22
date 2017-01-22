@@ -28,7 +28,7 @@ app.init = function(){
 // getCurrency method will make the Ajax request to the API.  Pass the two parameters for currency and base currency into the function
 app.getCurrency = function(query, base, query2){
 	$.ajax({
-		url: 'http://api.fixer.io/latest',
+		url: 'https://api.fixer.io/latest',
 		method: 'GET',
 		dataType: 'jsonp',
 		data: {
